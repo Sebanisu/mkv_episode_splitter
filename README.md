@@ -96,15 +96,13 @@ Version=1.0
 Type=Application
 Name=MKV Episode Splitter
 Comment=Split multi-episode MKV files into individual episodes
-Exec=python /home/sebanisu/dev/mkv_episode_splitter/mkv_episode_splitter.py
-Path=/mnt/media/pool/Videos
+Exec=python /path/to/mkv_episode_splitter/mkv_episode_splitter.py
+Path=/path/to/videos
 Terminal=false
 Categories=AudioVideo;Video;
 Icon=video-x-generic
 StartupNotify=true
 ```
-
-The launcher uses `/mnt/media/pool/Videos` as its working directory while the Python application itself resides in:
 
 ```text
 ~/dev/mkv_episode_splitter/
